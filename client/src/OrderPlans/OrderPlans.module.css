@@ -1,0 +1,10 @@
+.OrderPlans {
+    background-color: #f4f4f4;
+    padding-top: 20px;
+}
+
+@media screen and (min-width: 500px) {
+    .OrderPlans {
+        padding-top: 40px;
+    }
+}

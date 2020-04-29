@@ -1,0 +1,57 @@
+.Newsletter {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Newsletter h5 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.EmailInput {
+    border-radius: 200px;
+    font-size: 16px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.EmailInput:active {
+    outline: none;
+    border: none;
+}
+
+.Button {
+    background-color: #8BA62F;
+    border-radius: 200px;
+    font-size: 17px;
+}
+
+.Button:hover {
+    background-color: rgba(255, 176, 72, 0.8);
+}
+
+
+@media screen and (min-width: 500px) {
+    .Newsletter {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .Newsletter h5 {
+        font-size: 1.25rem;
+        width: 50%;
+    }
+
+    .EmailInput {
+        text-align: left;
+        padding-left: 32px;
+        font-size: 18px;
+    }
+
+    .Button {
+        font-size: 18px;
+    }
+}

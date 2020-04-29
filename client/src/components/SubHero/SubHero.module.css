@@ -1,0 +1,22 @@
+.SubHero {
+    background-color: #8ba62f;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.SubHero p {
+    font-size: 1.1rem;
+    width: 90%;
+}
+
+
+@media screen and (min-width: 500px) {
+    .SubHero {
+        padding: 60px 0;
+    }
+
+    .SubHero p {
+        font-size: 1.2rem;
+        width: 80%;
+    }    
+}

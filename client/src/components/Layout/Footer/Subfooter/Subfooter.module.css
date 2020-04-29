@@ -1,0 +1,35 @@
+.Subfooter {
+    padding: 15px 0;
+    background-color: #282828;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+}
+
+.Inner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.Inner div:nth-child(2) small {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.Inner div small a {
+    color: #8BA62F
+}
+
+
+@media screen and (min-width: 500px) {
+    .Subfooter {
+        margin-top: 50px;
+    }
+
+    .Inner {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}

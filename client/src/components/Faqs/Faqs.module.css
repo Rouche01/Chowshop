@@ -1,0 +1,42 @@
+.Faqs {
+    padding-top: 35px;
+    /* text-align: center; */
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.Faqs h2 {
+    font-size: 1.75rem;
+}
+
+.BackgroundImage {
+    background: url(../../assets/beans.png), url(../../assets/periwinkle.png);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: left -8% bottom -18%, right -30.5% top 11%;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    position: absolute;
+}
+
+@media screen and (min-width: 500px) {
+    .BackgroundImage {
+        background: url(../../assets/beans.png), url(../../assets/periwinkle.png);
+        background-repeat: no-repeat;
+        background-size: 15%;
+        background-position: left -8% bottom -15%, right -7.5% top -1%;
+        width: 100%;
+        height: 100%;
+        z-index: -10;
+        position: absolute;
+    }
+
+    .Faqs {
+        padding-top: 60px;
+    }
+
+    .Faqs h2 {
+        font-size: 2rem;
+    }
+}

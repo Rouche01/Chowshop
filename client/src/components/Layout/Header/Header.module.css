@@ -1,0 +1,43 @@
+.Header {
+    height: 80px;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Logo {
+    height: 30px;
+}
+
+.Button {
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 1rem;
+    background-color: #7A9910;
+    padding: 9px 22px;
+    border-color: #7A9910;
+}
+
+.Button:hover {
+    background-color: #d69744;
+    border-color: #d69744;
+}
+
+
+@media screen and (min-width: 500px) {
+    .Header {
+        padding: 30px 160px;
+    }
+    .Button {
+        font-size: 1.1rem;
+    }
+    .Logo {
+        height: 40px;
+    }
+}

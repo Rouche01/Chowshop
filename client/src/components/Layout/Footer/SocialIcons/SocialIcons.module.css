@@ -1,0 +1,16 @@
+.SocialIcons a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.7rem;
+    margin: 0 10px;
+}
+
+.SocialIcons a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.SocialIcons {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
