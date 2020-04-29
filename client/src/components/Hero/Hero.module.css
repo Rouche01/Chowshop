@@ -4,6 +4,7 @@
     padding-top: 80px;
     margin: 0 auto;
     position: relative;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .Hero h1 {
@@ -69,7 +70,7 @@
     }
 
     .Hero h1 {
-        font-size: 2.5rem;
+        font-size: 2.6rem;
     }
 
     .Hero p {
