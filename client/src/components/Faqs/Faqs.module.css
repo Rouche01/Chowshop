@@ -3,11 +3,17 @@
     /* text-align: center; */
     padding-bottom: 60px;
     position: relative;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .Faqs h2 {
     font-size: 1.75rem;
+    color: #424242;
+}
+
+.Faqs p {
+    color: #727272;
+    font-size: 1.1rem;
 }
 
 .BackgroundImage {
@@ -40,4 +46,10 @@
     .Faqs h2 {
         font-size: 2rem;
     }
+
+    .Faqs p {
+        color: #727272;
+        font-size: 1.2rem;
+    }
+    
 }

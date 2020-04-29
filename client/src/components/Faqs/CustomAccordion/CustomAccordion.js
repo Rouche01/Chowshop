@@ -28,7 +28,7 @@ class CustomAccordion extends Component {
                     {accordion.question}
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey = {idx}>
-                    <Card.Body>{accordion.answer}</Card.Body>
+                    <Card.Body className={styles.CardBody}>{accordion.answer}</Card.Body>
                 </Accordion.Collapse>
             </Card>
         })

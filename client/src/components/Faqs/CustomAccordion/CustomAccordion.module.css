@@ -10,10 +10,16 @@
 }
 
 .Question {
-    font-weight: bold;
-    font-size: 1.1rem;
+    font-weight: 700;
+    font-size: 1rem;
     padding-left: 10px;
     line-height: 1.2rem;
+    color: #424242;
+}
+
+.CardBody {
+    font-weight: 300;
+    color: #393939;
 }
 
 .Question::before {
@@ -66,6 +72,8 @@
         font-weight: bold;
         font-size: 1.2rem;
         padding-left: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     .ToggleClass::before {
@@ -74,6 +82,11 @@
         content: '\f13a';
         color: #fff;
         margin-right: 20px;
+    }
+
+    .CardBody {
+        font-weight: 400;
+        color: #393939;
     }
     
 }
