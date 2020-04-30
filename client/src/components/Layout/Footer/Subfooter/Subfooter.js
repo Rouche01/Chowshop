@@ -12,7 +12,7 @@ const Subfooter = (props) => (
                 <div>
                     <small><a href="https://freshchow.com/terms">Terms & Conditions</a></small>
                     <small><a href="https://freshchow.com/terms">Delivery Policy</a></small>
-                    <small>Problems? Idea? <a href="https://freshchow.com/terms">hello@chowshop.ng</a></small>
+                    <small>Problems? Idea? <a href="mailto:hello@chowshop.com.ng">hello@chowshop.com.ng</a></small>
                 </div>
             </div>
         </Container>
