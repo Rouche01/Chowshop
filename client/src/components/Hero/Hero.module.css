@@ -21,8 +21,8 @@
 .BackgroundImage {
     background: url(../../assets/Groceries-Scattered.png);
     background-repeat: no-repeat;
-    background-position-y: 200px;
-    background-position-x: -150px;
+    background-position-y: 120px;
+    background-position-x: -450px;
     width: 100%;
     height: 100%;
     z-index: -10;
