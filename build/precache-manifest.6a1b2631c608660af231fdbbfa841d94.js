@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be965ed39f7eefb38ed5da1cce4b0e8a",
+    "revision": "4118ae59a1382e62ff5c5692bffee9fb",
     "url": "/index.html"
   },
   {
-    "revision": "19fa47cb2ea51d0a0de9",
+    "revision": "a9c2c448a1fdd784b917",
     "url": "/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "acf1dcf60c5f653ae643",
-    "url": "/static/css/main.70798219.chunk.css"
+    "revision": "73d3238d52125a40b5dc",
+    "url": "/static/css/main.f70e1c3d.chunk.css"
   },
   {
-    "revision": "19fa47cb2ea51d0a0de9",
-    "url": "/static/js/2.5a6a79bb.chunk.js"
+    "revision": "a9c2c448a1fdd784b917",
+    "url": "/static/js/2.34c96f95.chunk.js"
   },
   {
-    "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.5a6a79bb.chunk.js.LICENSE.txt"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "/static/js/2.34c96f95.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "acf1dcf60c5f653ae643",
-    "url": "/static/js/main.1a38da8c.chunk.js"
+    "revision": "73d3238d52125a40b5dc",
+    "url": "/static/js/main.7c9f6efe.chunk.js"
   },
   {
     "revision": "4fd09cbb2f9830c9a4fe",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "704c29dbb379e0de9c2872146a0fbc9f",
     "url": "/static/media/foodstuff.704c29db.jpg"
+  },
+  {
+    "revision": "9d9cb686b4dd5cdd3a3e99ea9b78c12d",
+    "url": "/static/media/groceries-market.9d9cb686.jpg"
   },
   {
     "revision": "45b51c0090cc99415de56e80956e5a48",

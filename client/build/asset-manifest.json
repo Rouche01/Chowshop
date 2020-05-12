@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.70798219.chunk.css",
-    "main.js": "/static/js/main.1a38da8c.chunk.js",
-    "main.js.map": "/static/js/main.1a38da8c.chunk.js.map",
+    "main.css": "/static/css/main.f70e1c3d.chunk.css",
+    "main.js": "/static/js/main.7c9f6efe.chunk.js",
+    "main.js.map": "/static/js/main.7c9f6efe.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8233e298.js",
     "runtime-main.js.map": "/static/js/runtime-main.8233e298.js.map",
     "static/css/2.69121389.chunk.css": "/static/css/2.69121389.chunk.css",
-    "static/js/2.5a6a79bb.chunk.js": "/static/js/2.5a6a79bb.chunk.js",
-    "static/js/2.5a6a79bb.chunk.js.map": "/static/js/2.5a6a79bb.chunk.js.map",
+    "static/js/2.34c96f95.chunk.js": "/static/js/2.34c96f95.chunk.js",
+    "static/js/2.34c96f95.chunk.js.map": "/static/js/2.34c96f95.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.740161372727713e435c98ef863989b9.js": "/precache-manifest.740161372727713e435c98ef863989b9.js",
+    "precache-manifest.6a1b2631c608660af231fdbbfa841d94.js": "/precache-manifest.6a1b2631c608660af231fdbbfa841d94.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/static/css/2.69121389.chunk.css.map",
-    "static/css/main.70798219.chunk.css.map": "/static/css/main.70798219.chunk.css.map",
-    "static/js/2.5a6a79bb.chunk.js.LICENSE.txt": "/static/js/2.5a6a79bb.chunk.js.LICENSE.txt",
+    "static/css/main.f70e1c3d.chunk.css.map": "/static/css/main.f70e1c3d.chunk.css.map",
+    "static/js/2.34c96f95.chunk.js.LICENSE.txt": "/static/js/2.34c96f95.chunk.js.LICENSE.txt",
     "static/media/Hero.module.css": "/static/media/Groceries-Scattered.ba490f1f.png",
     "static/media/Faqs.module.css": "/static/media/periwinkle.bc959564.png",
     "static/media/foodstuff.jpg": "/static/media/foodstuff.704c29db.jpg",
+    "static/media/Overlay.module.css": "/static/media/groceries-market.9d9cb686.jpg",
     "static/media/market-bg.jpg": "/static/media/market-bg.45b51c00.jpg",
     "static/media/payment-illustration.png": "/static/media/payment-illustration.1961bb28.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8233e298.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.5a6a79bb.chunk.js",
-    "static/css/main.70798219.chunk.css",
-    "static/js/main.1a38da8c.chunk.js"
+    "static/js/2.34c96f95.chunk.js",
+    "static/css/main.f70e1c3d.chunk.css",
+    "static/js/main.7c9f6efe.chunk.js"
   ]
 }

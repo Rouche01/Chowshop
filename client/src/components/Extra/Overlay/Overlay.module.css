@@ -1,0 +1,18 @@
+.Overlay {
+    height: 100%;
+    width: 100%;
+    background-image: url(../../../assets/groceries-market.jpg);
+    background-size: cover;
+    position: fixed;
+    z-index: 600;
+}
+
+.BgOverlay {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: relative;
+    top: 0;
+    left: 0;
+    /* z-index: 300; */
+    height: 100%;
+    width: 100%;
+}
