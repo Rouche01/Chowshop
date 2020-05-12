@@ -5,30 +5,14 @@ import Overlay from './Overlay/Overlay';
 
 class Extra extends Component {
 
-  state = {
-    popState: true
-  }
-
   afterSubmit = () => {
-    this.setState({
-      popState: false
-    });
+    this.props.closePop();
+    document.querySelector('#mc-embedded-subscribe-form').submit()
   }
   
   render () {
-    let innerStyle;
-    if(!this.state.popState) {
-      innerStyle = {
-        display: 'none'
-      }
-    } else {
-      innerStyle = {
-        display: 'block'
-      }
-    }
-
     return (
-      <div className={styles.Extra} style={innerStyle}>
+      <div className={styles.Extra}>
         <Overlay>
           <div className={styles.Inner}>
             <h2>Get <strong>Free Delivery</strong> + <strong>Zero Service Charge</strong> Coupon</h2>
@@ -42,7 +26,7 @@ class Extra extends Component {
                   </div>
                   <div>
                     <div className="clear">
-                      <input type="submit" onClick={this.afterSubmit} value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className={styles.SubscribeBtn} />
+                      <input type="button" onClick={this.afterSubmit} value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className={styles.SubscribeBtn} />
                     </div>
                   </div>
                 </div>

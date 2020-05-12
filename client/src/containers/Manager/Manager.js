@@ -33,15 +33,19 @@ class Manager extends Component {
     return (
       <Wrapper>
         {this.state.popped ? <Extra closePop={this.closePopUp} /> : null}
-        <Layout>
-          <Hero />
-          <MoreInfo />
-          <OrderPlans />
-          <Faqs />
-        </Layout>
+        { !this.state.popped ? <Main /> : null } 
       </Wrapper>
     );
   }
 }
+
+const Main = (props) => (
+  <Layout>
+    <Hero />
+    <MoreInfo />
+    <OrderPlans />
+    <Faqs />
+  </Layout>
+);
 
 export default Manager;
